@@ -91,6 +91,29 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_z-tzMJeZEfCyBIN3u1PXIQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_9DveAJUoEfC-bdRbnaKAbA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ZJSzcJeaEfCyBIN3u1PXIQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_9DveAJUoEfC-bdRbnaKAbA - sales_sqlserver",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ZJSzcJeaEfCyBIN3u1PXIQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_-4z5gJU5EfC-bdRbnaKAbA",
     "version" : "0.1",
     "type" : "joblet"
