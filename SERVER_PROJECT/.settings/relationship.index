@@ -1,8 +1,88 @@
 [ {
   "baseItem" : {
+    "id" : "_M49XUJU2EfC-bdRbnaKAbA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_9DveAJUoEfC-bdRbnaKAbA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_P54xsJU2EfC-bdRbnaKAbA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_9DveAJUoEfC-bdRbnaKAbA - sales_sqlserver",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_QKNNUGZ8EeWm5YvsrIoYzQ",
     "version" : "0.1",
     "type" : "job"
   },
-  "relatedItems" : [ ]
+  "relatedItems" : [ {
+    "id" : "_9DveAJUoEfC-bdRbnaKAbA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_vURLYJUqEfC-bdRbnaKAbA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_vURLYJUqEfC-bdRbnaKAbA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_qsHNUJVSEfC-bdRbnaKAbA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_9DveAJUoEfC-bdRbnaKAbA",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_-4z5gJU5EfC-bdRbnaKAbA",
+    "version" : "0.1",
+    "type" : "joblet"
+  },
+  "relatedItems" : [ {
+    "id" : "_9DveAJUoEfC-bdRbnaKAbA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_vURLYJUqEfC-bdRbnaKAbA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_vURLYJUqEfC-bdRbnaKAbA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_51P5AJU5EfC-bdRbnaKAbA",
+    "version" : "0.1",
+    "type" : "joblet"
+  },
+  "relatedItems" : [ {
+    "id" : "_9DveAJUoEfC-bdRbnaKAbA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_P54xsJU2EfC-bdRbnaKAbA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_9DveAJUoEfC-bdRbnaKAbA - sales_sqlserver",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
 } ]
