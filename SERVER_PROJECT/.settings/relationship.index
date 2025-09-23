@@ -19,6 +19,17 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_P27BcJegEfCyBIN3u1PXIQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_9DveAJUoEfC-bdRbnaKAbA",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_QKNNUGZ8EeWm5YvsrIoYzQ",
     "version" : "0.1",
     "type" : "job"
@@ -75,6 +86,29 @@
     "type" : "schema"
   }, {
     "id" : "_vURLYJUqEfC-bdRbnaKAbA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_hKok8JegEfCyBIN3u1PXIQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_9DveAJUoEfC-bdRbnaKAbA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ZdJ0gJejEfCyBIN3u1PXIQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_9DveAJUoEfC-bdRbnaKAbA - sales_sqlserver",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ZdJ0gJejEfCyBIN3u1PXIQ - metadata",
     "version" : "Latest",
     "type" : "schema"
   } ]
