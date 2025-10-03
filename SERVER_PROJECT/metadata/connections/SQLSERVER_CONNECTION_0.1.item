@@ -48,6 +48,43 @@
           <sqlDataType xmi:id="_SnhLyJUtEfC-bdRbnaKAbA" name="NVARCHAR" javaDataType="-9" nullable="columnNullable"/>
         </feature>
       </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_y0mp4J0SEfCPip6rfz5Q5w" name="customer" id="_y0lbwJ0SEfCPip6rfz5Q5w" label="customer" tableType="TABLE">
+        <feature xsi:type="relational:TdColumn" xmi:id="_y0mp4Z0SEfCPip6rfz5Q5w" name="customer_id" label="customer_id" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+          <taggedValue xmi:id="_y0mp4p0SEfCPip6rfz5Q5w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_y0mp450SEfCPip6rfz5Q5w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_y0mp5J0SEfCPip6rfz5Q5w" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_y0mp5Z0SEfCPip6rfz5Q5w" name="first_name" label="first_name" length="50" sourceType="NVARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_y0mp5p0SEfCPip6rfz5Q5w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_y0mp550SEfCPip6rfz5Q5w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_y0mp6J0SEfCPip6rfz5Q5w" name="NVARCHAR" javaDataType="-9"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_y0mp6Z0SEfCPip6rfz5Q5w" name="last_name" label="last_name" length="50" sourceType="NVARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_y0mp6p0SEfCPip6rfz5Q5w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_y0mp650SEfCPip6rfz5Q5w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_y0mp7J0SEfCPip6rfz5Q5w" name="NVARCHAR" javaDataType="-9"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_y0mp7Z0SEfCPip6rfz5Q5w" name="country" label="country" length="50" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_y0mp7p0SEfCPip6rfz5Q5w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_y0mp750SEfCPip6rfz5Q5w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_y0mp8J0SEfCPip6rfz5Q5w" name="NVARCHAR" javaDataType="-9" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_y0mp8Z0SEfCPip6rfz5Q5w" name="email" label="email" length="100" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_y0mp8p0SEfCPip6rfz5Q5w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_y0mp850SEfCPip6rfz5Q5w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_y0mp9J0SEfCPip6rfz5Q5w" name="NVARCHAR" javaDataType="-9" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_y0mp9Z0SEfCPip6rfz5Q5w" name="phone_number" label="phone_number" length="20" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_y0mp9p0SEfCPip6rfz5Q5w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_y0mp950SEfCPip6rfz5Q5w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_y0mp-J0SEfCPip6rfz5Q5w" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_y0mp-Z0SEfCPip6rfz5Q5w" name="registration_date" label="registration_date" length="10" sourceType="DATE" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+          <taggedValue xmi:id="_y0mp-p0SEfCPip6rfz5Q5w" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_y0mp-50SEfCPip6rfz5Q5w" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_y0mp_J0SEfCPip6rfz5Q5w" name="DATE" javaDataType="91" nullable="columnNullable"/>
+        </feature>
+      </ownedElement>
     </ownedElement>
   </orgomg.cwm.resource.relational:Catalog>
 </xmi:XMI>
